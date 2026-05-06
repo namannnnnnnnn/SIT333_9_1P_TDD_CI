@@ -16,4 +16,4 @@ def submit_task(student_id, task_id, file_name):
     if not file_name.endswith(".pdf"):
         return "Only PDF files are allowed"
 
-    return "Task submitted successfully"
+    return "Wrong message"
